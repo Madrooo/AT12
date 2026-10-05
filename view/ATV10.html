@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+</head>
+<body>
+
+    <form action="" method="post">
+        <h1>Cadastro de Produto</h1>
+
+        <label for="imagemProduto">Imagem do produto</label>
+        <input type="file" id="imagemProduto" name="imagemProduto" required><br>
+
+        <label for="nomeProduto">Nome do produto</label>
+        <input type="text" id="nomeProduto" name="nomeProduto" placeholder="Digite o nome do produto"><br>
+
+        <label for="descricaoProduto">Descrição do produto</label>
+        <input type="text" id="descricaoProduto" name="descricaoProduto" placeholder="Digite a descrição do produto"><br>
+
+        <label for="valorCompra">Valor de compra do produto</label>
+        <input type="number" id="valorCompra" name="valorCompra" placeholder="0,00"><br>
+
+        <label for="valorVenda">Valor de venda do produto</label>
+        <input type="number" id="valorVenda" name="valorVenda" placeholder="0,00"><br>
+
+        <label for="fornecedorProduto">Fornecedor do produto</label>
+        <input type="text" id="fornecedorProduto" name="fornecedorProduto" placeholder="Digite o fornecedor do produto"><br>
+
+        <label for="validadeProduto">Validade do produto</label>
+        <input type="date" id="validadeProduto" name="validadeProduto"><br>
+
+        <label for="fabricacaoProduto">Data de fabricação do produto</label>
+        <input type="date" id="fabricacaoProduto" name="fabricacaoProduto"><br>
+
+        <label for="codigoBarras">Código de barras do produto</label>
+        <input type="text" id="codigoBarras" name="codigoBarras" placeholder="Digite o código de barras"><br>
+
+        <label for="quantidadeProduto">Quantidade do produto</label>
+        <input type="number" id="quantidadeProduto" name="quantidadeProduto" placeholder="0"><br>
+
+        <label for="categoriaProduto">Categoria do produto</label>
+        <input type="text" id="categoriaProduto" name="categoriaProduto" placeholder="Digite a categoria do produto"><br>
+
+        <button class="btn7" id="botao-principal" type="submit">
+            Cadastrar Produto
+        </button>
+    </form>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(blue, red);
+            min-height: 100vh;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        form {
+            background: rgba(15, 97, 190, 0.425);
+            padding: 20px;
+            border-radius: 10px;
+            width: 600px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: white;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .btn7 {
+            width: 100%;
+            background-color: #47073f;
+            padding: 12px;
+            border: 1px solid #ce39ba;
+            border-radius: 30px;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            cursor: pointer;
+            box-shadow: 0 4px 8px #080808;
+            transition: transform 0.3s, background-color 0.3s;
+        }
+
+        .btn7:hover {
+            background-color: #64095a;
+            transform: scale(1.03);
+        }
+        .btn7:active {
+            transform: scale(105) rotate(1200deg);
+        }
+    </style>
+
+</body>
+</html>
