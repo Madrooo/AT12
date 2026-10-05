@@ -10,7 +10,15 @@
             text-align: center;
             color: rgb(241, 154, 218);
             font-family: Arial, sans-serif;
-        }        
+        }      
+        body > p {
+            max-width: 700px;
+            margin: 10px auto 15px auto;
+            padding: 0 20px;
+            font-size: 15px;
+            line-height: 1.5;
+            text-align: justify;
+        }  
 
         a {
             background-color: antiquewhite;
@@ -31,6 +39,15 @@
             margin-bottom: 20px;
         }
 
+        .bloco-atividade img {
+            display: block;
+            width: 300px;
+            max-width: 90%;
+            margin: 10px auto;
+            border: 2px solid #f360df;
+            border-radius: 6px;
+        }
+
         .bloco-atividade p {
             max-width: 700px;
             margin: 10px auto 15px auto;
@@ -44,11 +61,21 @@
 <body>
 
     <h1 style="font-size: 50px;">Atividades</h1>
+
+    <p>
+    Observação: as caixas de seleção ao lado de cada atividade servem apenas
+    para marcação manual. Elas não são marcadas automaticamente ao clicar no
+    link e também não salvam o estado, então ao recarregar a página voltam a
+    ficar desmarcadas. Para abrir uma atividade em uma nova aba sem sair desta
+    página, clique com o botão do meio do mouse (a bolinha de rolagem) sobre o
+    link da atividade. Também é possível usar Ctrl + clique.
+    </p>
     
     <hr>
 
     <div class="bloco-atividade">
         <h2>Atividade 1</h2>
+        <img src="view/Img/ATV1.png" alt="Prévia da Atividade 1">
         <p>
             Primeiros testes com tags. A página usa o título &lt;title&gt;,
             comentário &lt;!-- --&gt;, os cabeçalhos &lt;h1&gt; a
@@ -64,6 +91,7 @@
 
     <div class="bloco-atividade">
         <h2>Atividade 2</h2>
+        <img src="view/Img/ATV2.png" alt="Prévia da Atividade 2">
         <p>
             Formatação de texto e estilos inline. A página tem fundo roxo escuro e textos
             rosa definidos com o atributo style. Usa &lt;h1&gt; com
@@ -80,6 +108,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 3</h2>
+        <img src="view/Img/ATV3.png" alt="Prévia da Atividade 3">
         <p>
             Página de notícia (Canal-Texugo) com estrutura semântica, sobre uma fala de
             Geoffrey Hinton. Usa &lt;html lang&gt;, &lt;meta charset&gt;,
@@ -96,6 +125,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 4</h2>
+        <img src="view/Img/ATV4.png" alt="Prévia da Atividade 4">
         <p>
             Mesma notícia da Atividade 3, agora com estilização. O título e o slogan do
             &lt;header&gt; recebem color, font-family e
@@ -108,6 +138,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 5</h2>
+        <img src="view/Img/ATV5.png" alt="Prévia da Atividade 5">
         <p>
             Galeria de imagens com nove &lt;fieldset&gt;, cada um com um título
             &lt;legend&gt; e uma imagem &lt;img&gt; com
@@ -121,6 +152,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 6</h2>
+        <img src="view/Img/ATV6.png" alt="Prévia da Atividade 6">
         <p>
             Repetição da Atividade 5: galeria de nove imagens com
             &lt;fieldset&gt;, &lt;legend&gt; e
@@ -132,6 +164,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 7</h2>
+        <img src="view/Img/ATV7.png" alt="Prévia da Atividade 7">
         <p>
             Coleção de oito botões &lt;button&gt; estilizados com as classes
             .btn1 a .btn8. Cada botão tem um visual diferente em CSS:
@@ -145,6 +178,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 8</h2>
+        <img src="view/Img/ATV8.png" alt="Prévia da Atividade 8">
         <p>
             Formulário de login centralizado na tela com display: flex. Usa
             &lt;form&gt;, &lt;div&gt;, &lt;label for&gt;,
@@ -159,6 +193,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 9</h2>
+        <img src="view/Img/ATV9.png" alt="Prévia da Atividade 9">
         <p>
             Formulário de login da Atividade 8 com um bloco de seis links
             &lt;a href&gt; coloridos, separados por &lt;br&gt;,
@@ -170,6 +205,7 @@
     <hr>
     <div class="bloco-atividade">
         <h2>Atividade 10</h2>
+        <img src="view/Img/ATV10.png" alt="Prévia da Atividade 10">
         <p>
             Formulário de cadastro de produto com &lt;form method="post"&gt;,
             &lt;h1&gt;, &lt;label&gt; e vários
