@@ -64,7 +64,6 @@ AT12/
 
 - As caixas de seleção ao lado de cada atividade servem apenas para **marcação manual**. Elas não são marcadas automaticamente ao clicar no link e não salvam o estado, então voltam a ficar desmarcadas ao recarregar a página.
 - Para abrir uma atividade em uma nova aba sem sair do índice, use o **botão do meio do mouse** (a bolinha de rolagem) sobre o link ou **Ctrl + clique**.
-- Os nomes das pastas diferenciam maiúsculas de minúsculas em servidores Linux (por exemplo, o GitHub Pages), por isso a pasta de imagens é sempre `Img/`.
 
 ## Autor
 
